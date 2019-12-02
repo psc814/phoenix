@@ -1,6 +1,10 @@
 
-# Created by https://www.gitignore.io/api/java,maven,windows,eclipse
-# Edit at https://www.gitignore.io/?templates=java,maven,windows,eclipse
+# Created by https://www.gitignore.io/api/java,maven,dbeaver,windows,eclipse
+# Edit at https://www.gitignore.io/?templates=java,maven,dbeaver,windows,eclipse
+
+### DBeaver ###
+# ide config file
+.dbeaver-data-sources*.xml
 
 ### Eclipse ###
 .metadata
@@ -135,11 +139,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# Created by https://www.gitignore.io/api/dbeaver
-# Edit at https://www.gitignore.io/?templates=dbeaver
-
-### DBeaver ###
-# ide config file
-.dbeaver-data-sources*.xml
-
-# End of https://www.gitignore.io/api/java,maven,windows,eclipse,dbeaver
+# End of https://www.gitignore.io/api/java,maven,dbeaver,windows,eclipse
